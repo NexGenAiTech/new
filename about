@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | NexGenAiTech Mehndi Artist</title>
+    <meta name="description" content="Learn about our professional mehndi artist, experience, and why clients choose us for bridal and party henna designs.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Fixed WhatsApp Button -->
+    <a href="https://wa.me/918055698328?text=Hi%2C%20I%20want%20to%20enquire%20about%20mehndi%20booking." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <span>NexGenAiTech</span>
+                    <small>Mehndi Artist</small>
+                </a>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="designs.html">Designs</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="call-mobile">
+                        <a href="tel:+918055698328">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>About NexGenAiTech</h1>
+            <p>Professional Mehndi Artist with Passion for Beautiful Designs</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-content section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Welcome to NexGenAiTech, where tradition meets artistry. Founded by passionate mehndi artists with over 8 years of experience, we specialize in creating beautiful, intricate henna designs for all occasions.</p>
+                    
+                    <p>What started as a personal passion has grown into a professional service trusted by hundreds of clients for their special moments. From traditional bridal mehndi to modern contemporary designs, we bring creativity, precision, and love to every artwork.</p>
+                    
+                    <p>Our mission is to make every client feel special and beautiful with our artistic creations. We believe that mehndi is not just an application but an experience that should be comfortable, memorable, and joyful.</p>
+                </div>
+                
+                <div class="about-image">
+                    <!-- Add about image here -->
+                    <div class="image-placeholder">
+                        <i class="fas fa-heart fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Home Service Available</h3>
+                    <p>We come to your location for maximum convenience and comfort.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Bridal Specialization</h3>
+                    <p>Expertise in traditional and modern bridal mehndi designs.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>High Quality & Hygiene</h3>
+                    <p>Premium natural henna and strict hygiene standards.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Punctual & Professional</h3>
+                    <p>We value your time and maintain professional conduct.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Custom Designs</h3>
+                    <p>Create personalized designs based on your preferences.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Excellent Support</h3>
+                    <p>Available for consultations and after-service support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Stats -->
+    <section class="stats section-padding">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="500">0</div>
+                    <div class="stat-label">Bridal Mehndi Done</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number" data-count="8">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number" data-count="1000">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number" data-count="50">0</div>
+                    <div class="stat-label">Events Covered</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Strip -->
+    <section class="gallery-strip section-padding">
+        <div class="container">
+            <h2 class="section-title">Our Work Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Gallery images will be loaded here -->
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section section-padding">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready for Beautiful Mehndi?</h2>
+                <p>Book your appointment today and experience professional mehndi artistry</p>
+                <div class="cta-buttons">
+                    <a href="designs.html" class="btn btn-outline-light">View Designs</a>
+                    <a href="booking.html" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NexGenAiTech</h3>
+                    <p>Professional Mehndi Artist providing beautiful henna designs for all occasions with home and studio services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="designs.html">Designs Gallery</a></li>
+                        <li><a href="booking.html">Book Appointment</a></li>
+                        <li><a href="about.html">About Artist</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+918055698328">+91 80556 98328</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/918055698328" target="_blank">WhatsApp Chat</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@nexgenaitech.com">info@nexgenaitech.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>10:00 AM - 10:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Location</h4>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        NexGenAiTech Studio<br>
+                        Your City, State - Pin Code
+                    </p>
+                    <a href="https://maps.google.com/?q=NexGenAiTech" class="map-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> Open in Google Maps
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> NexGenAiTech Mehndi Artist. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
