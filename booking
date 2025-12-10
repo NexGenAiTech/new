@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment | NexGenAiTech Mehndi Artist</title>
+    <meta name="description" content="Book your mehndi appointment online. Home visit or studio service available. Fill the form and we'll contact you shortly.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Fixed WhatsApp Button -->
+    <a href="https://wa.me/918055698328?text=Hi%2C%20I%20want%20to%20enquire%20about%20mehndi%20booking." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <span>NexGenAiTech</span>
+                    <small>Mehndi Artist</small>
+                </a>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="designs.html">Designs</a></li>
+                    <li><a href="booking.html" class="active">Booking</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="call-mobile">
+                        <a href="tel:+918055698328">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Book Your Appointment</h1>
+            <p>Fill the form below and we'll contact you shortly</p>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="booking-form section-padding">
+        <div class="container">
+            <div class="booking-container">
+                <div class="booking-info">
+                    <h2><i class="fas fa-calendar-check"></i> Quick Booking</h2>
+                    <p>Fill this simple form and send booking request directly via WhatsApp. Our team will confirm your appointment within 24 hours.</p>
+                    
+                    <div class="booking-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Fill Details</h4>
+                                <p>Provide your contact and event information</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Send via WhatsApp</h4>
+                                <p>Form data will be sent to our booking team</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Get Confirmation</h4>
+                                <p>We'll confirm your appointment details</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-direct">
+                        <h3><i class="fas fa-phone-alt"></i> Prefer to Call Directly?</h3>
+                        <a href="tel:+918055698328" class="btn btn-call">
+                            <i class="fas fa-phone"></i> Call Now: +91 80556 98328
+                        </a>
+                        <p>Available 10:00 AM to 10:00 PM</p>
+                    </div>
+                </div>
+                
+                <div class="booking-form-content">
+                    <form id="bookingForm">
+                        <div class="form-section">
+                            <h3><i class="fas fa-user"></i> Personal Information</h3>
+                            
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+                                <div class="error-message" id="nameError"></div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" required placeholder="Enter 10-digit mobile number">
+                                    <div class="error-message" id="phoneError"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email (optional)">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h3><i class="fas fa-home"></i> Service Type</h3>
+                            
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="serviceType" value="home" checked>
+                                    <span class="radio-custom"></span>
+                                    <div class="radio-content">
+                                        <strong>Home Visit Service</strong>
+                                        <small>Artist will come to your location</small>
+                                    </div>
+                                </label>
+                                
+                                <label class="radio-label">
+                                    <input type="radio" name="serviceType" value="studio">
+                                    <span class="radio-custom"></span>
+                                    <div class="radio-content">
+                                        <strong>Studio Visit</strong>
+                                        <small>Visit our professional studio</small>
+                                    </div>
+                                </label>
+                            </div>
+                            
+                            <div id="homeVisitFields" class="service-fields">
+                                <div class="form-group">
+                                    <label for="city">City *</label>
+                                    <input type="text" id="city" name="city" required placeholder="Enter your city">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="area">Area / Locality *</label>
+                                    <input type="text" id="area" name="area" required placeholder="Enter your area or locality">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="address">Full Address</label>
+                                    <textarea id="address" name="address" rows="3" placeholder="Enter complete address with landmarks"></textarea>
+                                </div>
+                            </div>
+                            
+                            <div id="studioInfo" class="service-fields" style="display: none;">
+                                <div class="studio-details">
+                                    <p><strong>NexGenAiTech Studio Address:</strong></p>
+                                    <p>Your City, State - Pin Code</p>
+                                    <p><i class="fas fa-clock"></i> Open: 10:00 AM - 10:00 PM</p>
+                                    <a href="https://maps.google.com/?q=NexGenAiTech" class="map-link-small" target="_blank">
+                                        <i class="fas fa-map-marker-alt"></i> View on Google Maps
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h3><i class="fas fa-calendar-alt"></i> Event Details</h3>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="eventType">Event Type *</label>
+                                    <select id="eventType" name="eventType" required>
+                                        <option value="">Select event type</option>
+                                        <option value="bridal">Bridal</option>
+                                        <option value="engagement">Engagement</option>
+                                        <option value="festival">Festival</option>
+                                        <option value="party">Party / Function</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="eventDate">Event Date *</label>
+                                    <input type="date" id="eventDate" name="eventDate" required min="">
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="timeSlot">Preferred Time *</label>
+                                    <select id="timeSlot" name="timeSlot" required>
+                                        <option value="">Select time slot</option>
+                                        <option value="morning">Morning (8 AM - 12 PM)</option>
+                                        <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
+                                        <option value="evening">Evening (4 PM - 8 PM)</option>
+                                        <option value="night">Night (8 PM - 10 PM)</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="peopleCount">Number of People *</label>
+                                    <select id="peopleCount" name="peopleCount" required>
+                                        <option value="1">1 Person (Bride only)</option>
+                                        <option value="2">2 People</option>
+                                        <option value="3">3 People</option>
+                                        <option value="4">4 People</option>
+                                        <option value="5">5+ People</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-section">
+                            <h3><i class="fas fa-palette"></i> Design Preference</h3>
+                            
+                            <div class="form-group">
+                                <label for="selectedDesign">Selected Design</label>
+                                <input type="text" id="selectedDesign" name="selectedDesign" readonly placeholder="No design selected">
+                                <small>Design selected from gallery. If you want to choose a different design, please mention in notes below.</small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="designNotes">Additional Design Notes</label>
+                                <textarea id="designNotes" name="designNotes" rows="4" placeholder="Describe your design preference, include Instagram/Pinterest links, reference images, or any specific requirements"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fab fa-whatsapp"></i> Send Booking Request via WhatsApp
+                            </button>
+                            
+                            <div class="form-note">
+                                <p><i class="fas fa-info-circle"></i> By submitting, you agree to our <a href="#">Terms of Service</a>. No payment required at this stage.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NexGenAiTech</h3>
+                    <p>Professional Mehndi Artist providing beautiful henna designs for all occasions with home and studio services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="designs.html">Designs Gallery</a></li>
+                        <li><a href="booking.html">Book Appointment</a></li>
+                        <li><a href="about.html">About Artist</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+918055698328">+91 80556 98328</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/918055698328" target="_blank">WhatsApp Chat</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@nexgenaitech.com">info@nexgenaitech.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>10:00 AM - 10:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Location</h4>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        NexGenAiTech Studio<br>
+                        Your City, State - Pin Code
+                    </p>
+                    <a href="https://maps.google.com/?q=NexGenAiTech" class="map-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> Open in Google Maps
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> NexGenAiTech Mehndi Artist. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/booking.js"></script>
+</body>
+</html>
