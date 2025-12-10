@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexGenAiTech | Professional Mehndi Artist Services</title>
+    <meta name="description" content="Professional Bridal & Party Mehndi Artist in your city. Home visit and studio services available. Book your appointment today!">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Fixed WhatsApp Button -->
+    <a href="https://wa.me/918055698328?text=Hi%2C%20I%20want%20to%20enquire%20about%20mehndi%20booking." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <span>NexGenAiTech</span>
+                    <small>Mehndi Artist</small>
+                </a>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="designs.html">Designs</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="call-mobile">
+                        <a href="tel:+918055698328">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Bridal & Party Mehndi in <span class="highlight">Your City</span> – Home & Studio Service</h1>
+                <p>Beautiful, intricate henna designs for all occasions. Traditional and modern styles with high-quality natural henna.</p>
+                <div class="hero-buttons">
+                    <a href="designs.html" class="btn btn-primary">View Designs</a>
+                    <a href="booking.html" class="btn btn-secondary">Book Appointment</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Home Visit Service</h3>
+                    <p>Professional mehndi service at your doorstep for your convenience.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Available in all major areas</li>
+                        <li><i class="fas fa-check"></i> Flexible timing (8AM - 10PM)</li>
+                        <li><i class="fas fa-check"></i> Travel charges applicable</li>
+                        <li><i class="fas fa-check"></i> All materials provided</li>
+                    </ul>
+                    <a href="booking.html?service=home" class="btn btn-outline">Book Home Visit</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Studio Visit</h3>
+                    <p>Visit our comfortable studio for the perfect mehndi experience.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Air-conditioned studio</li>
+                        <li><i class="fas fa-check"></i> Professional setup</li>
+                        <li><i class="fas fa-check"></i> Refreshments provided</li>
+                        <li><i class="fas fa-check"></i> Parking available</li>
+                    </ul>
+                    <a href="booking.html?service=studio" class="btn btn-outline">Book Studio Visit</a>
+                    <p class="studio-address">
+                        <i class="fas fa-map-marker-alt"></i> 
+                        NexGenAiTech Studio, Your City
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Mehndi Categories</h2>
+            <div class="categories-grid">
+                <a href="designs.html?category=bridal" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Bridal Mehndi</h3>
+                    <p>Intricate designs for brides</p>
+                </a>
+                
+                <a href="designs.html?category=arabic" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Arabic Mehndi</h3>
+                    <p>Floral and flowing patterns</p>
+                </a>
+                
+                <a href="designs.html?category=minimal" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Minimal Mehndi</h3>
+                    <p>Simple and elegant designs</p>
+                </a>
+                
+                <a href="designs.html?category=festival" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Festival Mehndi</h3>
+                    <p>Traditional festival designs</p>
+                </a>
+                
+                <a href="designs.html?category=feet" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h3>Feet Mehndi</h3>
+                    <p>Beautiful foot designs</p>
+                </a>
+                
+                <a href="designs.html?category=modern" class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Modern Mehndi</h3>
+                    <p>Contemporary styles</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Designs -->
+    <section class="featured section-padding">
+        <div class="container">
+            <h2 class="section-title">Featured Designs</h2>
+            <div class="designs-grid" id="featuredDesigns">
+                <!-- Featured designs will be loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Client Reviews</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="date">2 weeks ago</span>
+                    </div>
+                    <p>"The bridal mehndi was absolutely stunning! Very professional and the design lasted for weeks."</p>
+                    <div class="client">
+                        <strong>Priya Sharma</strong>
+                        <span>Bride</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="date">1 month ago</span>
+                    </div>
+                    <p>"Home service was very convenient. The artist arrived on time and did beautiful work for our family."</p>
+                    <div class="client">
+                        <strong>Rahul Verma</strong>
+                        <span>Family Event</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="date">3 days ago</span>
+                    </div>
+                    <p>"Loved the modern Arabic design! The studio is clean and comfortable. Highly recommended!"</p>
+                    <div class="client">
+                        <strong>Neha Patel</strong>
+                        <span>Party Mehndi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section-padding">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How early should I book for bridal mehndi?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>For bridal mehndi, we recommend booking at least 2-3 months in advance, especially during wedding season. This ensures availability for your preferred date and time.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What are the charges for home visit?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Home visit charges vary based on location. There's a base service charge plus travel fees depending on distance. Contact us with your address for exact pricing.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long does mehndi last?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>With our high-quality natural henna, designs typically last 1-3 weeks depending on skin type, aftercare, and placement. We provide aftercare instructions to maximize longevity.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you provide designs for men?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we offer traditional and modern mehndi designs for men as well, suitable for weddings and festivals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>NexGenAiTech</h3>
+                    <p>Professional Mehndi Artist providing beautiful henna designs for all occasions with home and studio services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="designs.html">Designs Gallery</a></li>
+                        <li><a href="booking.html">Book Appointment</a></li>
+                        <li><a href="about.html">About Artist</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+918055698328">+91 80556 98328</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/918055698328" target="_blank">WhatsApp Chat</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@nexgenaitech.com">info@nexgenaitech.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>10:00 AM - 10:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Location</h4>
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        NexGenAiTech Studio<br>
+                        Your City, State - Pin Code
+                    </p>
+                    <a href="https://maps.google.com/?q=NexGenAiTech" class="map-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> Open in Google Maps
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> NexGenAiTech Mehndi Artist. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
